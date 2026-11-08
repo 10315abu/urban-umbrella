@@ -1,0 +1,91 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  padding: 20px;
+  background: linear-gradient(135deg, #fff2f5, #eaf4fa);
+  color: #473d42;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px auto 24px;
+}
+
+nav a {
+  color: #8f3e5e;
+  text-decoration: none;
+  padding: 9px 13px;
+  border-radius: 20px;
+  background: #ffffffb5;
+}
+
+nav a:hover { background: white; }
+
+main {
+  width: min(680px, 100%);
+  margin: 0 auto;
+  padding: 32px;
+  text-align: center;
+  background: #fffdf9;
+  border: 1px solid #f0dce0;
+  border-radius: 22px;
+  box-shadow: 0 14px 40px #5944501c;
+}
+
+h1 { color: #a94e70; }
+.heart { color: #a94e70; font-size: 36px; margin: 0; }
+p { line-height: 1.7; }
+
+.card {
+  margin: 20px 0;
+  padding: 18px;
+  background: #fff7f8;
+  border-radius: 14px;
+  text-align: left;
+}
+
+.letter { padding: 24px; }
+
+.button, button {
+  display: inline-block;
+  margin: 18px 5px 0;
+  padding: 12px 18px;
+  border: 0;
+  border-radius: 10px;
+  background: #a94e70;
+  color: white;
+  font: bold 16px Arial, sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover, button:hover { background: #8f3e5e; }
+
+form { text-align: left; }
+
+label {
+  display: block;
+  margin: 18px 0 7px;
+  font-weight: bold;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  min-height: 90px;
+  padding: 12px;
+  border: 1px solid #d8dfe4;
+  border-radius: 10px;
+  font: 16px Arial, sans-serif;
+  resize: vertical;
+}
+
+@media (max-width: 500px) {
+  main { padding: 24px 18px; }
+}

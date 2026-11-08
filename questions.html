@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Questions</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="memories.html">Memories</a>
+    <a href="questions.html">Questions</a>
+    <a href="letter.html">A Letter</a>
+  </nav>
+
+  <main>
+    <p class="heart">♡</p>
+    <h1>A Few Questions</h1>
+    <p>Answer these and send them to Abshley.</p>
+
+    <form action="https://formsubmit.co/Abshleyjuma@gmail.com" method="POST">
+      <input type="hidden" name="_subject" value="A little note for Abshley">
+      <input type="hidden" name="_template" value="table">
+
+      <label for="memory">What’s a favorite memory with Abshley?</label>
+      <textarea id="memory" name="Favorite memory" required></textarea>
+
+      <label for="appreciate">What do you appreciate about Abshley?</label>
+      <textarea id="appreciate" name="What I appreciate" required></textarea>
+
+      <label for="message">What would you like to tell Abshley?</label>
+      <textarea id="message" name="Message" required></textarea>
+
+      <button type="submit">Send my answers</button>
+    </form>
+
+    <a class="button" href="letter.html">Next: A Letter →</a>
+  </main>
+</body>
+</html>
